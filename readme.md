@@ -9,7 +9,7 @@
 ___
 <br>
 
-## 一、部署方法：
+## 部署方法：
 1. 需要有conda，需要cuda12.1
 2. ```conda create --name anycaption python=3.10.14```
 3. ```conda activate anycaption```
@@ -27,7 +27,7 @@ ___
 8. 你可以看到：
 ![](assets/2.png)
 ___
-## 二、支持
+## 支持
 1，语言：
 ```
 "English","中文","日本語","韩文","Russian","French ","Deutsch","Español","Eesti","Suomi","阿拉伯语","Français","Italiano","Nederlands","Română","Türkçe","Afrikaans","Hrvatski","Bahasa Indonesia","Polski","Português","Svenska","Kiswahili","Xhosa","Galego","Slovenščina"
@@ -39,7 +39,14 @@ ___
 
 ___
 
-## 三、开发计划
+## 注意
+
+推理图片标签的时候，会将推理失败的图片放到新生成的error_img文件夹中，不过大多数情况下都会成功，这只是一个保险措施
+
+___
+
+
+## 开发计划
 1. 即时的模型支持
 2. 丰富标签处理工具
 3. 图片分类工具

@@ -83,7 +83,7 @@ def main():
         sys.exit(1)
 
     folder_path = sys.argv[1]
-    question = sys.argv[2]  # 问题由命令行参数传递
+    question = sys.argv[2] 
     label_language = sys.argv[3]
     trigger_word = sys.argv[4] if len(sys.argv) > 4 else ""
 
