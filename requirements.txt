@@ -1,0 +1,8 @@
+tqdm
+Pillow
+torch
+torchvision
+transformers
+sentencepiece
+decord
+dearpygui
