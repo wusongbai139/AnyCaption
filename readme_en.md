@@ -38,7 +38,16 @@ languages：
 models：
 1. Florence_2_large(Running requires 12GB VRAM) https://huggingface.co/microsoft/Florence-2-large
 2. MiniCPM-V-2_6(Running requires 20GB VRAM)  https://huggingface.co/openbmb/MiniCPM-V-2_6/tree/main
+
+
 ___
+
+## Attention
+
+When inferring image labels, the images that failed the inference will be placed in the newly generated err_img folder, but in most cases, it will be successful. This is just a safety measure
+
+___
+
 ## Development Plan
 1. Instant model support
 2. Enrich label processing tools
